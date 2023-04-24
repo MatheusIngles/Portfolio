@@ -1,0 +1,305 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 790px) {
+    .textos p{
+        font-size: 2vw;
+    }
+
+    #Mario{
+        width: 45%;
+    }
+
+}
+
+@media screen  and (max-width: 617px) {
+    .textos p{
+        font-size: 2vw;
+    }
+
+    #Mario{
+        width: 65%;
+    }
+}
+
+
+@media screen  and (max-width: 427px) {
+    .textos p{
+        font-size: 3vw;
+    }
+
+    #Mario{
+        width: 85%;
+    }
+}
+
+.Porcentagens{
+    width: 50%;
+    height: 100%;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    background-image: linear-gradient(rgb(57, 54, 70),rgb(79, 69, 87),rgb(109, 93, 110));
+}
+
+.Barras{
+    width: 100%;   
+    font-family:'DynaPuff', cursive;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.É_Barra{
+    width: 30vw;
+    height: 3vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.port{
+    width: 80%;
+    background-color: #333;
+    font-size: x-large;
+    height: 100%;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.por{
+    width: 10%;
+    background-color: #333;
+    font-size: large;
+    border-radius: 5px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.porte{
+    width: 50%;
+    background-color: #333;
+    font-size: x-large;
+    height: 100%;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.po{
+    width: 40%;
+    background-color: #333;
+    font-size: x-large;
+    height: 100%;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.p{
+    width: 70%;
+    background-color: #333;
+    font-size: x-large;
+    height: 100%;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#Coisas{    
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Imagens/darksouls.gif);
+}
+
+.Ashely{
+    display: flex;   
+    height: 1180px;
+    width: 100%;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Certificates{
+    color: aliceblue;
+    width: 70%;
+    height: 100%;
+    border-color: black;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    background-image: linear-gradient(rgb(57, 54, 70),rgb(79, 69, 87),rgb(109, 93, 110));
+}
+
+.Certificates #banana{
+    padding: 4%;
+    
+}
+
+.Certificates h1{
+    text-align: center;
+    font-family: 'DynaPuff', ;
+}
+#Certificado{
+    width: 20vw;
+    border-radius: 10px;
+}
+#Eae{
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Imagens/finally-qualified-qualification.gif);
+}
+
+.Ada{
+    display: flex;   
+    height: 1180px;
+    width: 100%;
+    background-position: center;
+    background-size: cover; 
+}
+
+.Carlos{
+    color: black;
+    display: flex;   
+    height: 1180px;
+    width: 100%;
+    background-position: center;
+    background-size: cover; 
+}
+
+#Desenho{
+    height: 100%;
+    width: 70%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Imagens/lofi-girl-lofi.gif);
+}
+
+.Imputs{
+    width: 40%;
+    font-family:'DynaPuff', cursive; 
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    background-image: linear-gradient(rgb(57, 54, 70),rgb(79, 69, 87),rgb(109, 93, 110));
+}
+
+.Imputs form{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.Imputs form label{
+    padding: 10px;
+}
+
+.Imputs form input{
+    border-radius: 10px;
+    height: 2vw;
+}
+
+.Imputs form textarea{
+    height: 15vw;
+    border-radius: 10px;
+}
+
+.Imputs form button{
+    border: none;
+    padding: 40px;
+    background: none;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.Imputs form button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.pedro{
+    color: white;
+    display: flex;   
+    height: 1180px;
+    width: 100%;
+    background-image: url(Imagens/samurai-jack-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+
+#Imagem{
+    height: 100%;
+    width: 30%;
+    background-image: url(Imagens/oi\ apenas.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: rgb(57, 54, 70);
+}
+
+#Resumo{
+    padding: 3%;
+    width: 70%;
+}
+
+#Resumo h1{
+    font-weight: 600;
+    font-family: 'DynaPuff', cursive;
+}
+
+.textos p{
+    font-size: 2,5vw;
+    text-align: justify;
+    font-family: 'DynaPuff', cursive;
+}
+
+.cabeca{
+    width: 100%;
+    height: 10%;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #333;  
+}
+
+.center a {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+.center a:hover{
+    color: rgb(165, 71, 9);
+}
